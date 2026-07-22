@@ -1,5 +1,6 @@
 export const sections = [
   { label: 'Sobre', id: 'sobre' },
+  { label: 'Formação Acadêmica', id: 'formacao' },
   { label: 'Stack técnica', id: 'stack' },
   { label: 'Experiência', id: 'experiencia' },
   { label: 'Projetos', id: 'projetos' },
@@ -108,6 +109,21 @@ export const projects = [
   },
 ]
 
+export const education = [
+  {
+    course: 'Engenharia de Software',
+    org: 'Estácio do Ceará (Via Corpvs)',
+    location: 'Fortaleza, CE',
+    period: '2023 – 2027',
+  },
+  {
+    course: 'Administração',
+    org: 'Faculdade Metropolitana de Horizonte',
+    location: 'Horizonte, CE',
+    period: '2018 – 2022',
+  },
+]
+
 export const courses = [
   {
     name: 'Desenvolvimento FullStack (JavaScript, React.JS, Node.JS, Express.JS, Cypress)',
@@ -143,4 +159,5 @@ export const profile = {
   githubHandle: 'WandersonHonorato',
   linkedin: 'https://www.linkedin.com/in/wanderson-honorato/',
   linkedinHandle: 'wanderson-honorato',
+  resume: '/docs/Curriculo-Wanderson-Honorato.pdf',
 }
