@@ -40,21 +40,57 @@ export const techStack = [
   },
 ]
 
-export const experience = [
+eexport const experience = [
   {
-    id: 'exp-1',
-    role: 'Freelancer de Desenvolvimento de Sistemas',
+    id: 'exp3',
+    role: 'Desenvolvedor Fullstack',
+    org: 'Quimtech',
+    period: 'MAIO 2026 — ATUAL',
+    highlightTags: ['JavaScript', 'Node.js', 'React.js', 'Express.js', 'APIs Rest', 'IA Generativa', 'PostgreSQL'],
+    details: [
+      'Desenvolvimento de aplicações de acordo com as necessidades do projeto, utilizando Node.js e Express.js, implementando APIs REST para sistemas e automação de processos internos.',
+      'Desenvolvimento front-end de aplicações responsivas com JavaScript, React.js, HTML5, CSS3 e Bootstrap 4, com foco em acessibilidade e compatibilidade.',
+      'Contribuiu para o aumento de 40% da eficiencia nos processos internos da empresa, implementando soluções de integração entre setores, através de softwares internos de gestão e controle de processos.',
+      'Adoção de princípios de SOLID na construção de soluções, visando manutenção e escalabilidade.',
+      'Participação ativa em rotinas de versionamento de código com Git e GitHub.',
+      'Testes automatizados com Cypress no Frontend, garantindo a qualidade e confiabilidade das aplicações.',
+      'Respnsável pela integração, consultas e manutenção do banco de dados SQLite (sql.js) e PostgreSQL, garantindo performance e integridade dos dados.',
+      'Aplicação de metodologias ágeis (Scrum e Kanban) utilizando Trello.',
+    ],
+  },
+    {
+    id: 'exp2',
+    role: 'Freelancer | Desenvolvimento de Sistemas',
     org: 'Novaterra Ambiental',
-    period: 'JUL 2025 — ATUAL',
-    highlightTags: ['Java', 'Spring Boot 3', 'React', 'TypeScript', 'PostgreSQL'],
+    period: 'JUL 2025 — ABRI 2026',
+    highlightTags: ['Java', 'Spring Boot 3', 'React.Js', 'Node.js', 'PostgreSQL'],
     details: [
       'Desenvolvimento de aplicações internas com Java 17/21, Spring Boot 3, Node.js e Express.js, implementando APIs RESTful para sistemas e automação de processos internos.',
       'Desenvolvimento front-end de aplicações responsivas com JavaScript, ReactJS, TypeScript, HTML5, CSS3 e Bootstrap 4, com foco em acessibilidade e compatibilidade.',
       'Adoção de princípios de SOLID e Clean Code na construção de soluções, visando manutenção e escalabilidade.',
-      'Participação ativa em rotinas de versionamento de código com Git e GitHub.',
+      'Participação em rotinas de versionamento de código com Git e GitHub.',
       'Apoio na modelagem e manutenção do banco de dados (SQL e PostgreSQL), garantindo performance e integridade dos dados.',
       'Aplicação de metodologias ágeis (Scrum e Kanban) utilizando Trello.',
       'Suporte de TI aos demais setores da empresa (hardware e software).',
+    ],
+  },
+      {
+    id: 'exp1',
+    role: 'Analista Administrativo | Faturamento | Suporte N2',
+    org: 'Novaterra Ambiental',
+    period: 'JUN 2020 — ATUAL',
+    highlightTags: ['Contas a Receber', 'Contas a Pagar', 'Faturamento', 'ERP', 'SQL', 'Suporte TI'],
+    details: [
+      'Responsável por todo processo do Contas a Receber e Contas a Pagar.',
+      'Suporte Ti N2: Banco de dados, atualização dos sistemas desktop, desenvolvimento de sistemas internos.',
+      'Emissão de NFS-e, NF-e, CT-e, emissão de boletos e controle de borderô.',
+      'Cobrança, controle de inadimplência e negociação de pendência com clientes. ',
+      'Lançamento de notas fiscais nos sistemas financeiro/ERP.',
+      'Lançamentos bancários para pagamentos e conciliação bancária de contas a pagar/receber.',
+      'Apoio na área contábil e fiscal com documentos e relatórios.',
+      'Análise de fundo fixo e fluxo de caixa.',
+      'Aplicação de metodologias ágeis de Scrum e Kanban para organização e entrega de demandas, utilizando ferramentas JIRA e Trello.',
+      
     ],
   },
 ]
