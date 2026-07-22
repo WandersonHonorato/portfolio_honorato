@@ -110,7 +110,7 @@ export const projects = [
 
 export const courses = [
   {
-    name: 'Desenvolvimento Full Stack (JavaScript, React.JS, Node.JS, Express.JS, Cypress)',
+    name: 'Desenvolvimento FullStack (JavaScript, React.JS, Node.JS, Express.JS, Cypress)',
     org: 'Digital College',
     period: 'Fevereiro 2026 — Julho 2026',
   },
