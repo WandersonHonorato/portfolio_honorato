@@ -40,7 +40,7 @@ export const techStack = [
   },
 ]
 
-eexport const experience = [
+export const experience = [
   {
     id: 'exp3',
     role: 'Desenvolvedor Fullstack',
