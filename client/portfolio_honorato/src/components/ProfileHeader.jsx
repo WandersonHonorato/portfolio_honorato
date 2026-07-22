@@ -1,5 +1,5 @@
 import avatarSrc from '../assets/foto-perfil.jpg'
-import { VerifiedBadge, PinIcon, MailIcon, PhoneIcon, GithubIcon, LinkedinIcon } from './Icons.jsx'
+import { VerifiedBadge, PinIcon, MailIcon, PhoneIcon, GithubIcon, LinkedinIcon, DownloadIcon } from './Icons.jsx'
 import { profile } from '../data/content.js'
 
 export default function ProfileHeader() {
@@ -31,6 +31,7 @@ export default function ProfileHeader() {
           <span>
             <MailIcon width="15" height="15" />
             {profile.email}
+            <VerifiedBadge width="14" height="14" className="badge-inline" />
           </span>
           <span>
             <PhoneIcon width="15" height="15" />
@@ -50,6 +51,10 @@ export default function ProfileHeader() {
           <a className="social-pill" href={`mailto:${profile.email}`}>
             <MailIcon width="16" height="16" />
             <span className="handle">E-mail</span>
+          </a>
+          <a className="social-pill resume-pill" href={profile.resume} download>
+            <DownloadIcon width="16" height="16" />
+            <span className="handle">Baixar currículo (PDF)</span>
           </a>
         </div>
       </div>

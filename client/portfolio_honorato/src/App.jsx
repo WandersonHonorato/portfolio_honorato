@@ -4,6 +4,7 @@ import CommandPalette from './components/CommandPalette.jsx'
 import Cover from './components/Cover.jsx'
 import ProfileHeader from './components/ProfileHeader.jsx'
 import About from './components/About.jsx'
+import Education from './components/Education.jsx'
 import TechStack from './components/TechStack.jsx'
 import Experience from './components/Experience.jsx'
 import Projects from './components/Projects.jsx'
@@ -60,6 +61,7 @@ export default function App() {
       <div className="identity">
         <ProfileHeader />
         <About />
+        <Education />
         <TechStack />
         <Experience />
         <Projects />

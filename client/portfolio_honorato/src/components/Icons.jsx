@@ -85,6 +85,14 @@ export const CapIcon = (props) => (
   </svg>
 )
 
+export const DownloadIcon = (props) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" {...props}>
+    <path d="M12 3v12" strokeLinecap="round" />
+    <path d="M7 10l5 5 5-5" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M4 19h16" strokeLinecap="round" />
+  </svg>
+)
+
 export const VerifiedBadge = (props) => (
   <svg viewBox="0 0 22 22" fill="none" {...props}>
     <path
