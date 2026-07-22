@@ -1,12 +1,11 @@
-import { LogoMark, SearchIcon, GithubIcon, MoonIcon, SunIcon } from './Icons.jsx'
+import { SearchIcon, GithubIcon, MoonIcon, SunIcon } from './Icons.jsx'
 import { profile } from '../data/content.js'
 
 export default function Navbar({ theme, onToggleTheme, onOpenPalette }) {
   return (
     <nav className="topnav">
       <div className="nav-left">
-        <LogoMark className="logo-mark" />
-        <span className="nav-title">Portfolio</span>
+        <span className="nav-title nav-initials">WH</span>
       </div>
       <div className="nav-right">
         <button className="search-btn" onClick={onOpenPalette} aria-haspopup="dialog">
