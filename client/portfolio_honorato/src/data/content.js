@@ -149,7 +149,7 @@ export const courses = [
 
 export const profile = {
   name: 'Wanderson Honorato',
-  tagline: 'Construindo com Java, Spring e React. Simples por fora, sólido por dentro.',
+  tagline: '“Investir em conhecimento rende sempre os melhores juros.” — Benjamin Franklin',
   role: 'Junior Software Engineer',
   roleSecondary: 'Fullstack Developer',
   location: 'Fortaleza, Ceará - Brasil',
