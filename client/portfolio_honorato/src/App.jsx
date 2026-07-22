@@ -10,6 +10,7 @@ import Experience from './components/Experience.jsx'
 import Projects from './components/Projects.jsx'
 import Courses from './components/Courses.jsx'
 import Footer from './components/Footer.jsx'
+import BackToTop from './components/BackToTop.jsx'
 import { sections } from './data/content.js'
 
 export default function App() {
@@ -30,6 +31,10 @@ export default function App() {
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }, [])
 
+  const goHome = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [])
+
   useEffect(() => {
     function handleGlobalKeyDown(e) {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
@@ -47,6 +52,7 @@ export default function App() {
         theme={theme}
         onToggleTheme={toggleTheme}
         onOpenPalette={() => setPaletteOpen(true)}
+        onGoHome={goHome}
       />
 
       <CommandPalette
@@ -68,6 +74,8 @@ export default function App() {
         <Courses />
         <Footer />
       </div>
+
+      <BackToTop />
     </>
   )
 }

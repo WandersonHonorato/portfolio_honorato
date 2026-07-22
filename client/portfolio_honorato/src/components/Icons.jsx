@@ -93,6 +93,13 @@ export const DownloadIcon = (props) => (
   </svg>
 )
 
+export const ArrowUpIcon = (props) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" {...props}>
+    <path d="M12 20V5" strokeLinecap="round" />
+    <path d="M5 12l7-7 7 7" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+)
+
 export const VerifiedBadge = (props) => (
   <svg viewBox="0 0 22 22" fill="none" {...props}>
     <path

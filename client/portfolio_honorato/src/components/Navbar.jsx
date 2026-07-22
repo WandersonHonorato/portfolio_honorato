@@ -1,11 +1,13 @@
 import { SearchIcon, GithubIcon, MoonIcon, SunIcon } from './Icons.jsx'
 import { profile } from '../data/content.js'
 
-export default function Navbar({ theme, onToggleTheme, onOpenPalette }) {
+export default function Navbar({ theme, onToggleTheme, onOpenPalette, onGoHome }) {
   return (
     <nav className="topnav">
       <div className="nav-left">
-        <span className="nav-title nav-initials">WH</span>
+        <button className="nav-title nav-initials" onClick={onGoHome} aria-label="Voltar para o início">
+          WH
+        </button>
       </div>
       <div className="nav-right">
         <button className="search-btn" onClick={onOpenPalette} aria-haspopup="dialog">
