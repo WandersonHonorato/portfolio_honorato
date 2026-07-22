@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd client/portfolio_honorato && npm install && npm run build",
+  "outputDirectory": "client/portfolio_honorato/dist",
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api" }
+  ]
+}
