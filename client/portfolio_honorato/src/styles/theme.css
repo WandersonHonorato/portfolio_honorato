@@ -65,6 +65,12 @@ button{ font-family:inherit; cursor:pointer; background:none; border:none; color
 .logo-mark{ width:22px; height:22px; flex-shrink:0; color:var(--text); }
 .nav-title{ font-family:'Space Grotesk', sans-serif; font-weight:600; font-size:14.5px; display:none; }
 @media(min-width:480px){ .nav-title{ display:inline; } }
+.nav-initials{
+  display:inline !important;
+  font-size:16px;
+  letter-spacing:0.02em;
+  color:var(--text);
+}
 
 .nav-right{ display:flex; align-items:center; gap:8px; }
 .search-btn{
@@ -236,8 +242,8 @@ h1{
   font-size:30px;
   letter-spacing:-0.01em;
 }
-.badge{ width:20px; height:20px; flex-shrink:0; }
-.tagline{ color:var(--text-dim); font-size:15.5px; margin-top:6px; }
+.badge{ width:26px; height:26px; flex-shrink:0; }
+.tagline{ color:var(--text-dim); font-size:13px; font-style:italic; margin-top:6px; }
 .role{ margin-top:14px; font-size:15px; color:var(--text); }
 .role b{ font-weight:600; }
 
@@ -249,7 +255,6 @@ h1{
 }
 .meta-row span{ display:flex; align-items:center; gap:6px; }
 .meta-row svg{ opacity:0.75; flex-shrink:0; }
-.badge-inline{ opacity:1 !important; flex-shrink:0; }
 
 /* ---------- socials ---------- */
 .socials{ display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }
