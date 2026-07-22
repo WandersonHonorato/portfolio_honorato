@@ -22,10 +22,12 @@ app.get('/', (req, res) => {
 // Serve o build do front-end em produção, se existir (npm run build no client)
 const clientDist = path.join(__dirname, '..', 'client', 'dist')
 app.use(express.static(clientDist))
-app.get('*', (req, res, next) => {
+
+app.use((req, res, next) => {
   if (req.path.startsWith('/api')) return next()
+
   res.sendFile(path.join(clientDist, 'index.html'), (err) => {
-    if (err) next()
+    if (err) return next()
   })
 })
 
