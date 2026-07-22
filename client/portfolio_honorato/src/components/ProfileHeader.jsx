@@ -31,7 +31,6 @@ export default function ProfileHeader() {
           <span>
             <MailIcon width="15" height="15" />
             {profile.email}
-            <VerifiedBadge width="14" height="14" className="badge-inline" />
           </span>
           <span>
             <PhoneIcon width="15" height="15" />
