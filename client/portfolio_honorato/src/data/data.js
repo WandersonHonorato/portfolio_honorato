@@ -1,10 +1,16 @@
-export const sections = [
-  { label: 'Sobre', id: 'sobre' },
-  { label: 'Stack técnica', id: 'stack' },
-  { label: 'Experiência', id: 'experiencia' },
-  { label: 'Projetos', id: 'projetos' },
-  { label: 'Cursos & Certificações', id: 'cursos' },
-]
+export const profile = {
+  name: 'Wanderson Honorato',
+  tagline: 'Construindo com Java, Spring e React. Simples por fora, sólido por dentro.',
+  role: 'Junior Software Engineer',
+  roleSecondary: 'Fullstack Developer',
+  location: 'Fortaleza, Ceará - Brasil',
+  email: 'wanderson.honorato1998@gmail.com',
+  phone: '+55 85 99260-6938',
+  github: 'https://github.com/WandersonHonorato',
+  githubHandle: 'WandersonHonorato',
+  linkedin: 'https://www.linkedin.com/in/wanderson-honorato/',
+  linkedinHandle: 'wanderson-honorato',
+}
 
 export const techStack = [
   {
