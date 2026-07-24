@@ -159,5 +159,5 @@ export const profile = {
   githubHandle: 'WandersonHonorato',
   linkedin: 'https://www.linkedin.com/in/wanderson-honorato/',
   linkedinHandle: 'wanderson-honorato',
-  resume: '/docs/Curriculo-Wanderson-Honorato.pdf',
+  resume: '/docs/Wanderson_Honorato_Resume.pdf',
 }
