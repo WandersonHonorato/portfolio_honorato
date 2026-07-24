@@ -13,16 +13,16 @@ export const techStack = [
     tags: [
       'Java 17+', 'Node.js', 'Spring Boot 3', 'Spring Security', 'Spring Data',
       'Spring WebFlux', 'Express.js', 'Maven', 'REST APIs', 'WebSocket',
-      'MVC', 'Microservices', 'Event-Driven',
+      'MVC', 'Microservices'
     ],
   },
   {
     title: 'Front-End',
-    tags: ['JavaScript', 'React', 'HTML5', 'CSS3', 'Bootstrap 4'],
+    tags: ['JavaScript', 'React.Js', 'HTML5', 'CSS3', 'Bootstrap 4'],
   },
   {
     title: 'Dados',
-    tags: ['MySQL', 'PostgreSQL', 'MongoDB', 'SQS', 'RabbitMQ'],
+    tags: ['SQL', 'MySQL', 'PostgreSQL', 'Supabase'],
   },
   {
     title: 'Testes & Qualidade',
@@ -31,20 +31,20 @@ export const techStack = [
   {
     title: 'DevOps & Cloud',
     tags: [
-      'AWS (EC2, ECS, Lambda)', 'API Gateway', 'S3', 'SNS/SQS', 'RDS',
-      'Docker', 'GitHub Actions', 'Datadog', 'Google Analytics',
+      'AWS (EC2, ECS, Lambda)', 'API Gateway', 'SNS/SQS',
+      'Docker', 'GitHub Actions', 'RabbitMQ', 'Google Analytics',
     ],
   },
   {
     title: 'Ágil & Versionamento',
-    tags: ['Git', 'JIRA', 'Trello', 'Scrum', 'Kanban'],
+    tags: ['Git', 'Trello', 'Scrum', 'Kanban'],
   },
 ]
 
 export const experience = [
   {
     id: 'exp3',
-    role: 'Desenvolvedor Fullstack',
+    role: 'Freelancer | Desenvolvedor Fullstack',
     org: 'Quimtech',
     period: 'MAIO 2026 — ATUAL',
     highlightTags: ['JavaScript', 'Node.js', 'React.js', 'Express.js', 'APIs Rest', 'IA Generativa', 'PostgreSQL'],
@@ -54,6 +54,7 @@ export const experience = [
       'Contribuiu para o aumento de 40% da eficiencia nos processos internos da empresa, implementando soluções de integração entre setores, através de softwares internos de gestão e controle de processos.',
       'Adoção de princípios de SOLID na construção de soluções, visando manutenção e escalabilidade.',
       'Participação ativa em rotinas de versionamento de código com Git e GitHub.',
+      'Segurança na camada de Backend com JWT, Bcrypt e Rate Limited',
       'Testes automatizados com Cypress no Frontend, garantindo a qualidade e confiabilidade das aplicações.',
       'Respnsável pela integração, consultas e manutenção do banco de dados SQLite (sql.js) e PostgreSQL, garantindo performance e integridade dos dados.',
       'Aplicação de metodologias ágeis (Scrum e Kanban) utilizando Trello.',
@@ -66,9 +67,9 @@ export const experience = [
     period: 'JUL 2025 — ABRI 2026',
     highlightTags: ['Java', 'Spring Boot 3', 'React.Js', 'Node.js', 'PostgreSQL'],
     details: [
-      'Desenvolvimento de aplicações internas com Java 17/21, Spring Boot 3, Node.js e Express.js, implementando APIs RESTful para sistemas e automação de processos internos.',
-      'Desenvolvimento front-end de aplicações responsivas com JavaScript, ReactJS, TypeScript, HTML5, CSS3 e Bootstrap 4, com foco em acessibilidade e compatibilidade.',
-      'Adoção de princípios de SOLID e Clean Code na construção de soluções, visando manutenção e escalabilidade.',
+      'Desenvolvimento de aplicações internas com Java 17/21, Spring Boot 3, Node.js e Express.js, implementando APIs REST para sistemas e automação de processos internos.',
+      'Desenvolvimento front-end de aplicações responsivas com JavaScript, React.Js, HTML5, CSS3 e Bootstrap 4, com foco em acessibilidade e compatibilidade.',
+      'Adoção de princípios de SOLID e Princípio KISS na construção de soluções, visando manutenção e escalabilidade.',
       'Participação em rotinas de versionamento de código com Git e GitHub.',
       'Apoio na modelagem e manutenção do banco de dados (SQL e PostgreSQL), garantindo performance e integridade dos dados.',
       'Aplicação de metodologias ágeis (Scrum e Kanban) utilizando Trello.',
@@ -91,7 +92,6 @@ export const experience = [
       'Apoio na área contábil e fiscal com documentos e relatórios.',
       'Análise de fundo fixo e fluxo de caixa.',
       'Aplicação de metodologias ágeis de Scrum e Kanban para organização e entrega de demandas, utilizando ferramentas JIRA e Trello.',
-      
     ],
   },
 ]
